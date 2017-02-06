@@ -1,19 +1,23 @@
-body {
-    background-color: white;
-    line-height: 12px;
-}
+
 
 h1.name{
+    position: fixed;
+    top: 0;
+    width: 100%;
     text-align: center;
     font-family: "Tahoma" ,Verdana,Segoe,sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #404040;
+    color: #595959;
+
 
 }
 
 h1.header{
+    position: fixed;
+    top: 15;
+    width: 100%;
     text-align: center;
     font-family: "Tahoma" ,Verdana,Segoe,sans-serif;
     font-size: 16px;
@@ -61,8 +65,34 @@ h2.description{
 }
 
 div.resume {
-    margin-top: 5px; margin-bottom: 0px;
+    margin-top: 30px; 
+    margin-bottom: 5px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+div.bio {
+    margin-top: 30px; 
+    margin-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+img {
+    max-width: 30%;
+    diplay: block;
+    margin-left: 20%;
+    margin-right: 50;
+}
+
+div.link{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left:10%;
+    margin-right:10%;
 }
 
