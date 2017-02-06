@@ -1,7 +1,6 @@
 
 
 h1.name{
-    position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
@@ -9,14 +8,12 @@ h1.name{
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #595959;
+    color: #404040;
 
 
 }
 
 h1.header{
-    position: fixed;
-    top: 15;
     width: 100%;
     text-align: center;
     font-family: "Tahoma" ,Verdana,Segoe,sans-serif;
@@ -89,10 +86,29 @@ img {
     margin-right: 50;
 }
 
-div.link{
+div.main{
     margin-top: 30px;
     margin-bottom: 5px;
     margin-left:10%;
     margin-right:10%;
 }
+
+div.scrollmenu {
+    background-color: #333;
+    overfow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover{
+    background-color: #777;
+}
+
 
