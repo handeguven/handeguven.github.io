@@ -81,9 +81,8 @@ ul.a {
 
 img {
     max-width: 30%;
-    diplay: block;
-    margin-left: 20%;
-    margin-right: 50;
+    display: block;
+    margin: auto;
 }
 
 div.main{
@@ -95,7 +94,7 @@ div.main{
 
 div.scrollmenu {
     background-color: #333;
-    overfow: auto;
+    overflow: auto;
     white-space: nowrap;
 }
 
